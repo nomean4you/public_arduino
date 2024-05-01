@@ -1,7 +1,8 @@
 # public_arduino
 for public Arduino source code!!
-Esp32와 망할놈의 ILI9341 스크린을 조합해서 만든 UPBIT TICKER조회용 소스입니다.
-이거 만드느라 4일 개고생했습니다.
+Esp32와 망할놈의 ILI9341 스크린을 조합해서 만든 
+UPBIT TICKER조회용 소스입니다.
+chatgpt 4.0으로 이거 만드느라 4일 개고생했습니다.
 기본적으로 받아서 설치해야할 라이브러리는 
 #include <WiFi.h>
 #include <HTTPClient.h>
