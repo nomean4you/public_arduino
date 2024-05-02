@@ -70,4 +70,21 @@ ILI9341 LCD 스크린이 아닌분은 각자 맞는 LCD 라이브러리를
 아두이노 초보 무니나라.
 
 
-
+ESP32_ILI9341_Upbit_ticker_Open_Source_V1.1 UPGRADE VERSION
+업그레이드 버젼입니다.
+API에서 받아오는 정보를 더 추가 했습니다.
+특히 변동량 에서 상승/보합/하락 을 색깔별로 나타나게 했습니다.
+LCD에선 Change 로 출력됩니다.
+52주 신고가/신저가 추가 했습니다.
+ 
+**변경 -- 가격 변동 정보 (Change) 이  코드가 색깔별로 나타납니다.
+**추가  API 정보 **
+ 누적 거래대금 (Acc Trade Price)
+ 24시간 누적 거래대금 (Acc Trade Price 24h)
+ 누적 거래량 (Acc Trade Volume)
+ 24시간 누적 거래량 (Acc Trade Volume 24h)
+ 52주 신고가 (Highest 52 Week Price)
+ 52주 신고가 달성일 (Highest 52 Week Date)
+ 52주 신저가 (Lowest 52 Week Price)
+ 52주 신저가 달성일 (Lowest 52 Week Date)
+2024.05.03
